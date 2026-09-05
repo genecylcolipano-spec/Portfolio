@@ -1,0 +1,71 @@
+# Role & Objective
+You are an expert Senior Full-Stack Developer specializing in React, Vite, Tailwind CSS, and Supabase. Build a modern, high-performance personal portfolio website named `ekizr-portofolio_v5` with an integrated administrative dashboard, real-time comment system, project modal views, dynamic route slugs, and animated UI components.
+
+---
+
+## 1. Tech Stack & Dependencies
+
+Set up the project with Vite (`react` template) and configure the following dependencies:
+
+- **Core & Routing:** `react`, `react-dom`, `react-router-dom` (v6), `react-helmet-async`
+- **Backend & Database:** `@supabase/supabase-js`
+- **Styling & UI:** `tailwindcss`, `postcss`, `autoprefixer`, `tailwind-scrollbar`, `@mui/material`, `@mui/icons-material`, `@emotion/react`, `@emotion/styled`, `@headlessui/react`, `@shadcn/ui`, `clsx`, `tailwind-merge`
+- **Animations:** `framer-motion`, `aos`, `gsap`, `@react-spring/web`, `@lottiefiles/dotlottie-react`, `@splinetool/react-spline`, `typewriter-effect`
+- **Icons & Alerts:** `lucide-react`, `@heroicons/react`, `sweetalert2`, `axios`
+
+---
+
+## 2. Directory Structure
+
+Scaffold and organize the project strictly according to this directory tree:
+
+```text
+ekizr-portofolio_v5/
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+├── vercel.json
+├── vite.config.js
+├── public/
+│   ├── google69971c601d2409b3.html
+│   ├── robots.txt
+│   └── sitemap.xml
+└── src/
+    ├── App.jsx
+    ├── index.css
+    ├── main.jsx
+    ├── supabase.js
+    ├── components/
+    │   ├── Background.jsx
+    │   ├── CardProject.jsx
+    │   ├── Certificate.jsx
+    │   ├── Commentar.jsx
+    │   ├── Footer.jsx
+    │   ├── InputField.jsx
+    │   ├── LoadingScreen.jsx
+    │   ├── Modal.jsx
+    │   ├── Navbar.jsx
+    │   ├── PresenceWidget.jsx
+    │   ├── ProjectDetail.jsx
+    │   ├── ProtectedRoute.jsx
+    │   ├── SocialLinks.jsx
+    │   └── TechStackIcon.jsx
+    ├── Pages/
+    │   ├── 404.jsx
+    │   ├── About.jsx
+    │   ├── Contact.jsx
+    │   ├── Dashboard.jsx
+    │   ├── Home.jsx
+    │   ├── Login.jsx
+    │   ├── Portofolio.jsx
+    │   ├── ThankYou.jsx
+    │   ├── WelcomeScreen.jsx
+    │   └── dashboard/
+    │       ├── Certificates.jsx
+    │       ├── Comments.jsx
+    │       └── Projects.jsx
+    └── utils/
+        └── slug.js
